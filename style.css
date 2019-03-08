@@ -7,23 +7,50 @@ nav {
     width:1020px;
     height:63px;
     background-color: #323232;
-    position: relative;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
 }
-
-.header-left {
-    font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular;
+header {
     font-size: 7.21379pt;
-    color: rgba(46, 179, 152, 255);
-    padding:32px 466px 23px 212px;
-    max-width: 114px;
-    max-height:8px; 
+    color:white;
+    position: absolute;
+    max-height: 8px;
+}
 
+.header-left-1 {
+    color: rgba(46, 179, 152, 255);
+    margin-top: 32px ;
+    margin-left: 326px;
+    position: absolute;
 }
-.header-right {
-    text-align:;
+.header-left-2 {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 349px;
 }
-.hexal {
-    width:182px;
+.header-left-dot {
+    position: absolute;
+    margin-top: 32px;
+    margin-left:335px;
+}
+.header-left-3 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top:32px;
+}
+.header-left-4 {
+    position: absolute;
+    margin-left: 686px;
+    margin-top:32px;
+}
+.header-left-dot-2 {
+    position: absolute;
+    margin-top: 32px;
+    margin-left:673px;
+}
+
+header .hexal {
+    width:180px;
     height:206px;
     transform: rotate(120deg);
     overflow:hidden;
@@ -31,16 +58,45 @@ nav {
     margin: -117px 420px 26px;
     z-index: -1;
 }
-.hexal-layer-1 {
+header .hexal-layer-1 {
     width: 100%;
     height: 100%;
     transform: rotate(-60deg);
     overflow:hidden;
 }
-.hexal-layer-2 {
+header .hexal-layer-2 {
     width: 100%;
     height: 100%;
     transform: rotate(120deg);
-    background-color: rgb(17, 124, 138);
+    background-color:#323232;
     overflow:hidden;
+}
+ .hexal {
+    width:180px;
+    height:206px;
+    transform: rotate(120deg);
+    overflow:hidden;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 152px;
+    margin-left: 119px;
+
+}
+ .hexal-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow:hidden;
+}
+ .hexal-layer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(120deg);
+    background-color:#5a0303;
+    overflow:hidden;
+    visibility: visible;
+    background-image: url("/assets/monster-1.png");
+}
+ .hexal-2 {
+
 }
