@@ -1,67 +1,60 @@
+.nav-content-container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 body {
-    width:1020px ;
-    height:2113px ;
+    max-width:1020px ;
+    width: 100%;
+    height:1732px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
-    width:1020px;
-    height:63px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height:63px;
     background-color: #323232;
-    position: absolute;
-    font-family: 'Lato', sans-serif;
 }
 header {
-    font-size: 7.21379pt;
+    width: 100%;
     color:white;
-    position: absolute;
-    max-height: 8px;
 }
-
-.header-left-1 {
-    color: rgba(46, 179, 152, 255);
-    margin-top: 32px ;
-    margin-left: 326px;
-    position: absolute;
+.container-hexal {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 180px;
+    height: 206px;
+    margin-top:-119px;
 }
-.header-left-2 {
-    position: absolute;
-    margin-top: 32px;
-    margin-left: 349px;
+.logo {
+    background-image: url("assets/logo.png");
+    background-repeat: no-repeat;
+    width:64px;
+    height:55px;
+    z-index: 2;
 }
-.header-left-dot {
-    position: absolute;
-    margin-top: 32px;
-    margin-left:335px;
-}
-.header-left-3 {
-    position: absolute;
-    margin-left: 580px;
-    margin-top:32px;
-}
-.header-left-4 {
-    position: absolute;
-    margin-left: 686px;
-    margin-top:32px;
-}
-.header-left-dot-2 {
-    position: absolute;
-    margin-top: 32px;
-    margin-left:673px;
-}
-
 header .hexal {
-    width:180px;
-    height:206px;
+    width:182px;
+    height:209px;
     transform: rotate(120deg);
     overflow:hidden;
-    position: absolute;
-    margin: -117px 420px 26px;
     z-index: -1;
 }
 header .hexal-layer-1 {
     width: 100%;
     height: 100%;
-    transform: rotate(-60deg);
+    transform: rotate(120deg);
     overflow:hidden;
 }
 header .hexal-layer-2 {
@@ -70,33 +63,139 @@ header .hexal-layer-2 {
     transform: rotate(120deg);
     background-color:#323232;
     overflow:hidden;
+    visibility: visible;
 }
- .hexal {
-    width:180px;
-    height:206px;
-    transform: rotate(120deg);
-    overflow:hidden;
-    position: absolute;
-    visibility: hidden;
-    margin-top: 152px;
-    margin-left: 119px;
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.text-highlighting-green {
+    color:#2f9882;
 }
- .hexal-layer-1 {
+.text-size {
+    font-size: 8px;
+    font-family: "Lato";
+}
+.padding-left {
+    padding-left: 2%;
+}
+.padding-right {
+    padding-right: 2%;
+}
+
+nav > :first-child {
+    justify-content: flex-end;
+}
+
+nav > :last-child {
+    justify-content: flex-start;
+}
+
+main {
     width: 100%;
-    height: 100%;
-    transform: rotate(-60deg);
-    overflow:hidden;
+    height: 1062px;
 }
- .hexal-layer-2 {
+.hexagon-ex {
+    width: 180px;
+    height: 206px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+.hexagon {
+    width: 182px;
+    height: 209px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    
+}
+.hexagon-layer-1 {
     width: 100%;
     height: 100%;
     transform: rotate(120deg);
-    background-color:#5a0303;
+    overflow: hidden;
+    visibility: hidden;
+}
+.hexagon-layer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(120deg);
     overflow:hidden;
     visibility: visible;
-    background-image: url("/assets/monster-1.png");
 }
- .hexal-2 {
+.container-hexagon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6.18% 11.666667% 0%;
+}
+.container-hexagon-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin :-3.766% 1.86% 0%;
+}
+#hex-marg {
+    margin: -3.5% 11.666667% 0%;
+    justify-content: space-around;
+}
+.image-1 {
+    background-image:url("assets/monster-1.png");
+    background-position: 50%;
+}
+.image-2 {
+    background-image:url("assets/monster-2.png");
+    background-position: 50%;
+}
+.image-3 {
+    background-image:url("assets/monster-3.png");
+    background-position: 50%;
+}
+.image-4 {
+    background-image:url("assets/monster-4.png");
+    background-position: 50%;
+}
+.image-5 {
+    background-image:url("assets/monster-5.png");
+    background-position: 50%;
+}
+.image-6 {
+    background-image:url("assets/monster-6.png");
+    background-position: 50%;
+}
+.image-7 {
+    background-image:url("assets/monster-7.png");
+    background-position: 50%;
+}
+.image-8 {
+    background-image:url("assets/monster-8.png");
+    background-position: 50%;
+}
+.image-9 {
+    background-image:url("assets/monster-9.png");
+    background-position: 50%;
+}
+.image-10 {
+    background-image:url("assets/monster-10.png");
+    background-position: 50%;
+}
+.image-11 {
+    background-image:url("assets/monster-11.png");
+    background-position: 50%;
+}
+.image-12 {
+    background-image:url("assets/monster-12.png");
+    background-position: 50%;
+}
+.image-13 {
+    background-image:url("assets/monster-13.png");
+    background-position: 50%;
+}
+.lines {
+    width:100%;
+    height: 1px;
+    background-color: #e4e9eb;
+}
 
-}
