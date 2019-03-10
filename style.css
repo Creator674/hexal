@@ -5,6 +5,14 @@
     flex-direction: row;
     align-items: center;
 }
+.no-link {
+    text-decoration: none;
+    text-decoration-color: #219d84;
+}
+.no-link-white {
+    text-decoration: none;
+    color:white;
+}
 
 body {
     max-width:1020px ;
